@@ -167,13 +167,11 @@ footer {
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: transparent;
-        background-color: transparent;
+
         min-height: 60px;
     }
 
     .navbar-header > .navbar-brand {
-        color: rgba(255,255,255,0.7);
         padding: 19px;
     }
 
@@ -201,10 +199,7 @@ footer {
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
-        font-size: 15px;
-        color:#337ab7;
-        padding: 20px;
-        letter-spacing: 1px;
+
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -225,13 +220,14 @@ footer {
 }
 
 header {
+    margin-top:55px;
     position: relative;
     min-height: auto;
     text-align: center;
     color: #fff;
     width: 100%;
     background-color: #c9c9c9;
-    background-image: url('https://s-media-cache-ak0.pinimg.com/originals/36/84/51/368451b1680ca038089f980d277f42b5.jpg');
+    background-image: url('../assets/homepage-image.png');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
